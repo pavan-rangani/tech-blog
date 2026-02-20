@@ -8,7 +8,8 @@
       "author": "Pavan Rangani",
       "tags": ["Java", "Virtual Threads", "Performance"],
       "readTime": "10 min",
-      "gradient": "from-cyan-500/20 to-blue-500/10"
+      "gradient": "from-cyan-500/20 to-blue-500/10",
+      "featuredImage": "https://images.unsplash.com/photo-1560439514-4e9645039924?w=1200&h=630&fit=crop"
     },
     {
       "slug": "spring-ai-building-intelligent-apps",
@@ -18,7 +19,8 @@
       "author": "Pavan Rangani",
       "tags": ["Spring AI", "AI", "Java", "LLM"],
       "readTime": "12 min",
-      "gradient": "from-blue-500/20 to-indigo-500/10"
+      "gradient": "from-blue-500/20 to-indigo-500/10",
+      "featuredImage": "https://images.unsplash.com/photo-1632218537886-cd8a6c866d5d?w=1200&h=630&fit=crop"
     },
     {
       "slug": "docker-kubernetes-java-guide",
@@ -28,7 +30,8 @@
       "author": "Pavan Rangani",
       "tags": ["Docker", "Kubernetes", "Java", "DevOps"],
       "readTime": "14 min",
-      "gradient": "from-emerald-500/20 to-cyan-500/10"
+      "gradient": "from-emerald-500/20 to-cyan-500/10",
+      "featuredImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=630&fit=crop"
     },
     {
       "slug": "redis-caching-spring-boot",
@@ -38,7 +41,8 @@
       "author": "Pavan Rangani",
       "tags": ["Redis", "Spring Boot", "Caching", "Performance"],
       "readTime": "9 min",
-      "gradient": "from-indigo-500/20 to-purple-500/10"
+      "gradient": "from-indigo-500/20 to-purple-500/10",
+      "featuredImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=630&fit=crop"
     },
     {
       "slug": "api-rate-limiting-spring-boot",
@@ -48,7 +52,8 @@
       "author": "Pavan Rangani",
       "tags": ["Spring Boot", "API", "Security", "Rate Limiting"],
       "readTime": "8 min",
-      "gradient": "from-purple-500/20 to-rose-500/10"
+      "gradient": "from-purple-500/20 to-rose-500/10",
+      "featuredImage": "https://images.unsplash.com/photo-1696013910376-c56f76dd8178?w=1200&h=630&fit=crop"
     },
     {
       "slug": "system-design-real-time-chat",
@@ -58,7 +63,8 @@
       "author": "Pavan Rangani",
       "tags": ["System Design", "WebSocket", "Architecture"],
       "readTime": "13 min",
-      "gradient": "from-cyan-500/20 to-blue-500/10"
+      "gradient": "from-cyan-500/20 to-blue-500/10",
+      "featuredImage": "https://images.unsplash.com/photo-1769228092677-9f2d7d7c19f3?w=1200&h=630&fit=crop"
     },
     {
       "slug": "spring-boot-best-practices",
@@ -68,7 +74,8 @@
       "author": "Pavan Rangani",
       "tags": ["Spring Boot", "Java", "Best Practices"],
       "readTime": "8 min",
-      "gradient": "from-cyan-500/20 to-blue-500/10"
+      "gradient": "from-cyan-500/20 to-blue-500/10",
+      "featuredImage": "https://images.unsplash.com/photo-1754548930550-be9fa88874f4?w=1200&h=630&fit=crop"
     },
     {
       "slug": "microservices-architecture-patterns",
@@ -78,7 +85,8 @@
       "author": "Pavan Rangani",
       "tags": ["Microservices", "Architecture", "Distributed Systems"],
       "readTime": "12 min",
-      "gradient": "from-blue-500/20 to-indigo-500/10"
+      "gradient": "from-blue-500/20 to-indigo-500/10",
+      "featuredImage": "https://images.unsplash.com/photo-1667372459567-3853510dd5ce?w=1200&h=630&fit=crop"
     },
     {
       "slug": "event-driven-microservices-kafka",
@@ -88,7 +96,8 @@
       "author": "Pavan Rangani",
       "tags": ["Kafka", "Event-Driven", "Java"],
       "readTime": "11 min",
-      "gradient": "from-emerald-500/20 to-cyan-500/10"
+      "gradient": "from-emerald-500/20 to-cyan-500/10",
+      "featuredImage": "https://images.unsplash.com/photo-1682616324443-ca6b19317e0b?w=1200&h=630&fit=crop"
     },
     {
       "slug": "ai-reshaping-software-development",
@@ -98,7 +107,8 @@
       "author": "Pavan Rangani",
       "tags": ["AI", "Software Development", "Future"],
       "readTime": "10 min",
-      "gradient": "from-indigo-500/20 to-purple-500/10"
+      "gradient": "from-indigo-500/20 to-purple-500/10",
+      "featuredImage": "https://images.unsplash.com/photo-1642775196125-38a9eb496568?w=1200&h=630&fit=crop"
     },
     {
       "slug": "ai-powered-code-review",
@@ -108,7 +118,8 @@
       "author": "Pavan Rangani",
       "tags": ["AI", "Code Review", "Testing"],
       "readTime": "9 min",
-      "gradient": "from-purple-500/20 to-rose-500/10"
+      "gradient": "from-purple-500/20 to-rose-500/10",
+      "featuredImage": "https://images.unsplash.com/photo-1760670399462-f5e479452c27?w=1200&h=630&fit=crop"
     }
   ]
 }
