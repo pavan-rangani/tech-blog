@@ -1,0 +1,8 @@
+{
+  "name": "blog-publisher",
+  "private": true,
+  "dependencies": {
+    "marked": "^15.0.0",
+    "marked-highlight": "^2.2.0"
+  }
+}
