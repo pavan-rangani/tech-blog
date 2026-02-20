@@ -4,9 +4,9 @@ const https = require("https");
 const { Marked } = require("marked");
 const { markedHighlight } = require("marked-highlight");
 
-const WP_URL = process.env.WP_URL?.replace(/\/$/, "");
-const WP_USERNAME = process.env.WP_USERNAME;
-const WP_APP_PASSWORD = process.env.WP_APP_PASSWORD;
+let WP_URL = process.env.WP_URL?.trim()?.replace(/\/$/, "") || "";
+const WP_USERNAME = process.env.WP_USERNAME?.trim();
+const WP_APP_PASSWORD = process.env.WP_APP_PASSWORD?.trim();
 
 if (!WP_URL || !WP_USERNAME || !WP_APP_PASSWORD) {
   console.error(
@@ -15,7 +15,14 @@ if (!WP_URL || !WP_USERNAME || !WP_APP_PASSWORD) {
   process.exit(1);
 }
 
+// Ensure URL has https:// prefix
+if (!WP_URL.startsWith("http://") && !WP_URL.startsWith("https://")) {
+  WP_URL = "https://" + WP_URL;
+}
+
 const API_BASE = `${WP_URL}/wp-json/wp/v2`;
+const parsedUrl = new URL(API_BASE);
+console.log(`Target host: ${parsedUrl.hostname}`);
 const AUTH_HEADER =
   "Basic " +
   Buffer.from(`${WP_USERNAME}:${WP_APP_PASSWORD}`).toString("base64");
@@ -71,7 +78,11 @@ function wpRequest(endpoint, method = "GET", body = null) {
     });
 
     req.on("error", (e) => {
-      reject(new Error(`Network error on ${method} ${endpoint}: ${e.message}`));
+      reject(
+        new Error(
+          `Network error on ${method} ${endpoint}: ${e.code || ""} ${e.message}`
+        )
+      );
     });
 
     req.setTimeout(30000, () => {
