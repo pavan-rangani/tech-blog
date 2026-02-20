@@ -7,6 +7,127 @@
 /* ---------- Google Fonts ---------- */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
+/* ===========================================
+   ASTRA FORCE OVERRIDES - Dark Theme
+   These must override Astra's built-in whites
+   =========================================== */
+
+/* Force dark on ALL containers */
+body.ast-separate-container,
+body.ast-two-container,
+body.ast-plain-container,
+body.ast-separate-container #primary,
+body.ast-two-container #primary,
+body.ast-separate-container #secondary,
+body.ast-separate-container .site-content,
+body.ast-separate-container .ast-container,
+body.ast-separate-container .site-main,
+body.ast-two-container .site-content,
+.site-content .ast-container,
+#content .ast-container {
+  background-color: #0B1121 !important;
+  background: #0B1121 !important;
+}
+
+/* Force dark on ALL article cards */
+body.ast-separate-container .ast-article-post,
+body.ast-separate-container .ast-article-single,
+body.ast-separate-container article,
+body.ast-two-container .ast-article-post,
+body.ast-two-container .ast-article-single,
+.ast-separate-container .ast-article-post,
+.ast-separate-container .ast-article-single,
+.ast-article-post,
+article.type-post,
+article.post {
+  background-color: #111D35 !important;
+  background: #111D35 !important;
+  color: #F1F5F9 !important;
+}
+
+/* Force dark on card inner */
+body.ast-separate-container .ast-article-inner,
+body.ast-two-container .ast-article-inner,
+.ast-article-inner,
+.blog-layout-4,
+.post-content {
+  background-color: #111D35 !important;
+  background: transparent !important;
+}
+
+/* Force ALL text visible inside cards */
+body .ast-article-post .entry-title a,
+body .ast-article-post h2 a,
+.ast-article-post .entry-title a,
+.blog-layout-4 .entry-title a,
+article .entry-title a {
+  color: #FFFFFF !important;
+}
+
+body .ast-article-post .entry-meta,
+body .ast-article-post .entry-meta *,
+body .ast-article-post .entry-meta a,
+.ast-article-post .entry-meta,
+.ast-article-post .entry-meta * {
+  color: #64748B !important;
+}
+
+body .ast-article-post .ast-excerpt-container,
+body .ast-article-post .ast-excerpt-container p,
+body .ast-article-post .entry-content p,
+.ast-article-post .ast-excerpt-container p,
+.ast-excerpt-container p,
+article .ast-excerpt-container p {
+  color: #CBD5E1 !important;
+}
+
+/* Force dark footer */
+body .site-footer,
+body .site-below-footer-wrap,
+body .ast-footer-copyright,
+.site-footer,
+.site-below-footer-wrap,
+.ast-footer-copyright,
+.ast-small-footer,
+footer.site-footer,
+.site-below-footer-wrap .ast-container,
+.site-below-footer-wrap .ast-builder-grid-row,
+.ast-footer-copyright .ast-container,
+footer,
+.footer-widget-area,
+.widget-area.footer-widget-area {
+  background-color: #0F172A !important;
+  background: #0F172A !important;
+  color: #64748B !important;
+  border-top: 1px solid rgba(14, 165, 233, 0.15) !important;
+}
+
+.site-footer a,
+.site-below-footer-wrap a,
+.ast-footer-copyright a {
+  color: #94A3B8 !important;
+}
+
+.site-footer a:hover,
+.ast-footer-copyright a:hover {
+  color: #06B6D4 !important;
+}
+
+/* Force pagination dark */
+body .ast-pagination,
+body .ast-pagination .page-numbers,
+.ast-pagination,
+nav.navigation {
+  background: transparent !important;
+}
+
+/* Remove "Powered by Astra" white area */
+.ast-small-footer .ast-container,
+.ast-footer-copyright .ast-footer-html-inner {
+  background: transparent !important;
+  color: #475569 !important;
+}
+
 /* ---------- CSS Variables ---------- */
 :root {
   --bg-primary: #0B1121;
