@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "slug": "spring-boot-best-practices",
+      "title": "Spring Boot Best Practices for Production-Ready Applications",
+      "excerpt": "A deep dive into patterns and practices that make Spring Boot applications resilient, maintainable, and performant in production environments.",
+      "date": "2025-02-15",
+      "author": "Pavan Rangani",
+      "tags": ["Spring Boot", "Java", "Best Practices"],
+      "readTime": "8 min",
+      "gradient": "from-cyan-500/20 to-blue-500/10"
+    },
+    {
+      "slug": "microservices-architecture-patterns",
+      "title": "Microservices Architecture: Patterns That Actually Work",
+      "excerpt": "Lessons learned from building distributed systems at scale — saga patterns, circuit breakers, and the patterns that saved us in production.",
+      "date": "2025-02-01",
+      "author": "Pavan Rangani",
+      "tags": ["Microservices", "Architecture", "Distributed Systems"],
+      "readTime": "12 min",
+      "gradient": "from-blue-500/20 to-indigo-500/10"
+    },
+    {
+      "slug": "event-driven-microservices-kafka",
+      "title": "Event-Driven Microservices with Apache Kafka",
+      "excerpt": "Building resilient, decoupled systems using Kafka — from basic pub/sub to complex event sourcing patterns in Java.",
+      "date": "2025-01-20",
+      "author": "Pavan Rangani",
+      "tags": ["Kafka", "Event-Driven", "Java"],
+      "readTime": "11 min",
+      "gradient": "from-emerald-500/20 to-cyan-500/10"
+    },
+    {
+      "slug": "ai-reshaping-software-development",
+      "title": "How AI is Reshaping Software Development in 2025",
+      "excerpt": "From code generation to architectural decisions — exploring how AI tools are changing the way we write, review, and ship code.",
+      "date": "2025-01-10",
+      "author": "Pavan Rangani",
+      "tags": ["AI", "Software Development", "Future"],
+      "readTime": "10 min",
+      "gradient": "from-indigo-500/20 to-purple-500/10"
+    },
+    {
+      "slug": "ai-powered-code-review",
+      "title": "AI-Powered Code Review and Testing: A Developer's Guide",
+      "excerpt": "Practical guide to integrating AI into your code review and testing pipeline — tools, workflows, and real-world results.",
+      "date": "2024-12-28",
+      "author": "Pavan Rangani",
+      "tags": ["AI", "Code Review", "Testing"],
+      "readTime": "9 min",
+      "gradient": "from-purple-500/20 to-rose-500/10"
+    }
+  ]
+}
