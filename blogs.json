@@ -1,6 +1,66 @@
 {
   "posts": [
     {
+      "slug": "java-21-virtual-threads",
+      "title": "Java 21 Virtual Threads: The End of Reactive Complexity",
+      "excerpt": "Virtual threads are rewriting the rules of concurrent Java — handling millions of threads with simple blocking code. Here's how to adopt them in production.",
+      "date": "2026-02-18",
+      "author": "Pavan Rangani",
+      "tags": ["Java", "Virtual Threads", "Performance"],
+      "readTime": "10 min",
+      "gradient": "from-cyan-500/20 to-blue-500/10"
+    },
+    {
+      "slug": "spring-ai-building-intelligent-apps",
+      "title": "Building Intelligent AI Applications with Spring AI",
+      "excerpt": "From ChatClient to RAG pipelines — a practical guide to integrating LLMs into your Spring Boot applications using the Spring AI framework.",
+      "date": "2026-02-10",
+      "author": "Pavan Rangani",
+      "tags": ["Spring AI", "AI", "Java", "LLM"],
+      "readTime": "12 min",
+      "gradient": "from-blue-500/20 to-indigo-500/10"
+    },
+    {
+      "slug": "docker-kubernetes-java-guide",
+      "title": "Docker to Kubernetes: A Java Developer's Production Guide",
+      "excerpt": "From optimized Dockerfiles to Kubernetes deployments — everything a Java developer needs to containerize and orchestrate Spring Boot apps.",
+      "date": "2026-01-28",
+      "author": "Pavan Rangani",
+      "tags": ["Docker", "Kubernetes", "Java", "DevOps"],
+      "readTime": "14 min",
+      "gradient": "from-emerald-500/20 to-cyan-500/10"
+    },
+    {
+      "slug": "redis-caching-spring-boot",
+      "title": "Redis Caching Patterns That Scale: A Spring Boot Guide",
+      "excerpt": "Practical caching strategies with Redis and Spring Boot — from @Cacheable basics to distributed cache stampede prevention in high-traffic systems.",
+      "date": "2026-01-15",
+      "author": "Pavan Rangani",
+      "tags": ["Redis", "Spring Boot", "Caching", "Performance"],
+      "readTime": "9 min",
+      "gradient": "from-indigo-500/20 to-purple-500/10"
+    },
+    {
+      "slug": "api-rate-limiting-spring-boot",
+      "title": "API Rate Limiting and Throttling in Spring Boot",
+      "excerpt": "Protect your APIs from abuse with token bucket rate limiting, distributed Redis counters, and proper 429 response handling in Spring Boot.",
+      "date": "2026-01-05",
+      "author": "Pavan Rangani",
+      "tags": ["Spring Boot", "API", "Security", "Rate Limiting"],
+      "readTime": "8 min",
+      "gradient": "from-purple-500/20 to-rose-500/10"
+    },
+    {
+      "slug": "system-design-real-time-chat",
+      "title": "System Design: Building a Real-Time Chat Application",
+      "excerpt": "A complete system design walkthrough — WebSockets, Redis Pub/Sub, message delivery guarantees, and scaling to millions of concurrent users.",
+      "date": "2025-12-20",
+      "author": "Pavan Rangani",
+      "tags": ["System Design", "WebSocket", "Architecture"],
+      "readTime": "13 min",
+      "gradient": "from-cyan-500/20 to-blue-500/10"
+    },
+    {
       "slug": "spring-boot-best-practices",
       "title": "Spring Boot Best Practices for Production-Ready Applications",
       "excerpt": "A deep dive into patterns and practices that make Spring Boot applications resilient, maintainable, and performant in production environments.",
